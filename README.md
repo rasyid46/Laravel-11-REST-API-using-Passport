@@ -7,6 +7,8 @@
   - Step 4: Add Product Table and Model
   - Step 5: Create API Routes
   - Step 6: Create Controller Files
+  - php artisan passport:client --personal
+  - php artisan passport:client --password
   - Run Laravel 11 App
 
 ![laravel-11-rest-api-passport-example](https://www.itsolutionstuff.com/upload/laravel-11-rest-api-passport.png)

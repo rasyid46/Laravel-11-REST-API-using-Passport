@@ -23,3 +23,5 @@ Route::post('login', [RegisterController::class, 'login']);
 Route::middleware('auth:api')->group( function () {
     Route::resource('products', ProductController::class);
 });
+
+Route::post('/oauth/token', '\Laravel\Passport\Http\Controllers\AccessTokenController@issueToken');
